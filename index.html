@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida Alejandro Perez</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="foto.png" alt="imagenFoto" class="foto-perfil" width="30%" height="30%">
+        </header>
+
+        <hr>
+        
+        <nav>
+            <h1>Alejandro Perez Cifuentes</h1>
+            <ul id="nav-list" class="nav-list">
+                <li><a href="#acerca">Acerca de mi</a></li>
+                <li><a href="#experiencia">Experiencia Laboral</a></li>
+                <li class="subEstudios">
+                    <a href="#estudios">Estudios y mas</a>
+                    <ul>
+                        <li><a href="#estudios">Profesional</a></li>
+                        <li><a href="#estudios">Tecnológico</a></li>
+                        <li><a href="#estudios">Hobbies</a></li>
+                    </ul>
+                </li>
+                <li><a href="#referencia">Referencias Personales</a></li>
+                <li><a href="#formulario">Contacto</a></li>
+            </ul>
+          
+        </nav>
+
+        <section id="acerca">
+            <h2>Acerca de mí</h2>
+            <p>
+                Ingeniero Industrial con énfasis en logística, proactivo, organizado y responsable. Poseo excelentes habilidades interpersonales y una actitud orientada a resultados. Cuento con experiencia en la implementación de soluciones mediante herramientas de desarrollo low-code, especialmente dentro del ecosistema de Microsoft (Power Apps, Power Automate, SharePoint, entre otros). Estoy en constante búsqueda de desafíos que me permitan seguir creciendo profesionalmente, optimizar procesos y aportar valor estratégico a las organizaciones.
+            </p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia Laboral</h2>
+            <article>
+                <div class="caja">
+                    <img src="logo sura.png" alt="imagenLaboral" width="50px" height="50px">
+                    <br>
+                    <a href="https://www.sura.co/seguros">Consultoría gestión de riesgos Suramericana</a>
+                </div>
+                <div class="caja">
+                    <h3>Funciones:</h3>
+                    <ol>
+                        <li>Búsqueda de nuevas tendencias tecnológicas - IA</li>
+                        <li>Desarrollador aplicaciones low-code Power Platforms Microsoft</li>
+                        <li>Articular áreas transversales a la compañía para nuevas iniciativas</li>
+                    </ol>
+                </div>
+                <div class="caja">
+                    <img src="arlsura.png" alt="imagenLaboral" width="50px" height="50px">
+                    <br>
+                    <a href="https://www.sura.co/arl">ARL Sura</a>
+                </div>
+                <div class="caja">
+                    <h3>Funciones:</h3>
+                    <ol>
+                        <li>Seguimiento y preparación de informes semanales</li>
+                        <li>Control y manejo de inventario de equipos</li>
+                        <li>Planificación con empresas de planes de trabajo acordes a necesidades técnicas</li>
+                    </ol>
+                </div>
+            </article>
+        </section>
+
+        <section id="estudios">
+            <h2>Estudios y mas</h2>
+            <article>
+                <div class="caja">
+                    <img src="Unicuces.png" alt="logoUnicuces" width="50px" height="50px">
+                    <br>
+                    <a href="https://unicuces.edu.co/principal/">Unicuces</a>
+                </div>
+                <div class="caja">
+                    <h3>Universidad</h3>
+                    <ul>
+                        <li>Ingeniero Industrial - 2018</li>
+                        <li>Diplomado énfasis en Logística - 2018</li>
+                        <li>Cadena de Abastecimiento - 2019</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <div class="caja">
+                    <img src="cecep.png" alt="logoCecep" width="50px" height="50px">
+                    <br>
+                    <a href="https://www.cecep.edu.co/">Cecep</a>
+                </div>
+                <div class="caja">
+                    <h3>Tecnólogo</h3>
+                    <ul>
+                        <li>Tecnólogo Industrial</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <div class="caja">
+                    <h2>Hobbies</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Natación</th>
+                                <td><img src="natacion.png" alt="logoNatacion" width="50px" height="50px"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Liga Natación del Valle</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+
+        <section id="referencia">
+            <h2>Referencias Personales</h2>
+            <ul>
+                <li>Julian Lopez Morales</li>
+            </ul>
+        </section>
+
+        <section id="formulario">
+            <h2>Contacto</h2>
+            <div id="formSection">
+                <div class="formContainer">
+                    <form id="contactForm">
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
+
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" name="email" id="email" placeholder="correo@ejemplo.com" required>
+
+                        <label for="mensaje">Motivo de Contacto:</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escriba el motivo de su mensaje"></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="datosContacto">
+            <p>alejpeci1429@gmail.com</p>
+            <p>Cali</p>
+        </div>
+        <p> Boot Camp</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
